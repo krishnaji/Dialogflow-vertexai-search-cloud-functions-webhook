@@ -1,0 +1,13 @@
+POST https://edfc-2601-646-a282-21e0-6432-31eb-4392-3c73.ngrok.io 
+content-type: application/json
+
+{
+ "sessionInfo": {
+   "parameters": {
+     "searchQuery": "form"
+   }
+ },
+ "fulfillmentInfo": {
+       "tag": "search"
+ }
+}
